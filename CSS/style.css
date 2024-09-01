@@ -1,0 +1,132 @@
+#home{
+    width: 100%;
+    height: 400px;
+}
+
+#about{
+    width: 100%;
+    height: 350px;
+}
+
+.btn:hover{
+    color: white;
+    border: 3px solid rgb(0, 221, 255);
+    border-radius: 20px;
+    box-shadow: 3px 3px 0px 3px white;
+}
+.btn{
+    margin: 5px;
+}
+
+.homehead{
+    font-size: 80px;  
+    color: darkblue;
+    animation: glow 1s ease-in-out infinite alternate; 
+}
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px rgb(48, 48, 144);
+  }
+}
+.homeicon a{
+    color: palevioletred;
+}
+span{
+    color: blue;
+    font-weight: bolder;
+}
+.abouthead{
+    margin-left: 200px;
+}
+
+.vlb{
+    border-left: 6px solid green;
+    height: 220px;
+}
+.vlh{
+    border-left: 6px solid wheat;
+    height: 170px;
+}
+.vls{
+    border-left: 6px solid orange;
+    height: 170px;
+}
+.resume{
+    text-decoration: none;
+    margin-left: 80px;
+}
+
+.skilltext h6{
+    font-size:20px ;
+}
+.html{
+    color: rgb(255, 145, 0);
+}
+.css{
+    color: rgba(0, 0, 255, 0.705);
+}
+.bs{
+    color: rgb(137, 12, 226);
+}
+.js{
+    color: rgb(255, 234, 0);
+}
+.java{
+    color: red;
+}
+.py{
+    color: #306998;
+}
+.wf{
+    color: gray;
+}
+.pd{
+    color: palevioletred;
+}
+.photo{
+    color: green;    
+}
+.skillsrow1:hover{
+    font-style: italic;
+}
+.skillsrow2:hover{
+    font-style: italic;
+}
+.skillsrow3:hover{
+    font-style: italic;
+}
+.linkedin{
+    color: blue;
+    font-size: larger;
+}
+.email{
+    color: red;
+    font-size: larger;
+}
+.call{
+    color: green;
+    font-size: larger;
+}
+.github{
+    color: black;
+    font-size: larger;
+}
+
+@media only screen and (max-width:600px) {
+    #home{
+        height: 150px;
+    }
+    #home h1{
+        font-size: 30px;       
+    } 
+    #about{
+        height: 410px;
+    }  
+    #about h2{
+        font-size: medium;
+    } 
+}
